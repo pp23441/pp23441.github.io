@@ -1,11 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Pruthvi Pandya — AI Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+/* ===== WORLD-CLASS DESIGN ===== */
+
+body{
+    margin:0;
+    font-family:"Inter", Arial, sans-serif;
+    background:#0b1220;
+    color:#e5e7eb;
+}
+
+/* NAVBAR */
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:18px;
+    background:#020617;
+    border-bottom:1px solid #1f2937;
+}
+
+nav a{
+    color:#e5e7eb;
+    text-decoration:none;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#020617,#0b1220);
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:22px;
+    color:#9ca3af;
+}
+
+.cta{
+    margin-top:30px;
+}
+
+.btn{
+    background:#38bdf8;
+    color:black;
+    padding:12px 22px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:700;
+    margin:6px;
+}
+
+/* SECTION */
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:70px 20px;
+}
+
+h2{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+/* CARDS */
+
+.card{
+    background:#020617;
+    padding:22px;
+    margin:18px 0;
+    border-radius:8px;
+    border:1px solid #1f2937;
+}
+
+/* SKILL BARS */
+
+.skill{
+    margin:14px 0;
+}
+
+.bar{
+    height:8px;
+    background:#1f2937;
+    border-radius:6px;
+}
+
+.fill{
+    height:8px;
+    background:#38bdf8;
+    border-radius:6px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:40px;
+    background:#020617;
+    border-top:1px solid #1f2937;
+}
+
+</style>
 </head>
 
 <body>
+
+<!-- NAVBAR -->
 
 <nav>
 <a href="about.html">About</a>
@@ -15,23 +137,112 @@
 <a href="contact.html">Contact</a>
 </nav>
 
+<!-- HERO -->
+
 <div class="hero">
+
 <h1>Pruthvi Jitendrabhai Pandya</h1>
-<p class="subtitle">AI & Data Engineering • Computer Vision • Intelligent Systems</p>
+
+<p class="subtitle">
+AI & Data Engineering • Computer Vision • Intelligent Systems
+</p>
+
 <p>London, UK — Right to work in the UK</p>
 
-<p>
+<div class="cta">
+<a class="btn" href="projects.html">View Projects</a>
+<a class="btn" href="#">Download CV</a>
+</div>
+
+<p style="margin-top:25px;">
 <a href="https://www.linkedin.com/in/pandya-pruthvi-6148b0142" target="_blank">LinkedIn</a> |
 <a href="https://github.com/pp23441" target="_blank">GitHub</a> |
 <a href="https://www.aihubplatform.co.uk/" target="_blank">AI Hub Platform</a>
 </p>
+
 </div>
 
+<!-- ABOUT -->
+
 <section>
-<h2>About</h2>
+
+<h2>About Me</h2>
+
 <p>
-AI & Data Engineering professional with an MSc in Artificial Intelligence from the University of Essex, specializing in real-time computer vision systems and deployable AI solutions.
+AI & Data Engineering professional with an MSc in Artificial Intelligence from the University of Essex. I design deployable AI systems that operate reliably in real-world environments, focusing on computer vision, data engineering, and autonomous decision systems.
 </p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section>
+
+<h2>Core Skills</h2>
+
+<div class="skill">Machine Learning & AI
+<div class="bar"><div class="fill" style="width:92%"></div></div>
+</div>
+
+<div class="skill">Computer Vision
+<div class="bar"><div class="fill" style="width:90%"></div></div>
+</div>
+
+<div class="skill">Data Engineering & Analytics
+<div class="bar"><div class="fill" style="width:88%"></div></div>
+</div>
+
+<div class="skill">Python & Software Development
+<div class="bar"><div class="fill" style="width:93%"></div></div>
+</div>
+
+</section>
+
+<!-- FEATURED PROJECTS -->
+
+<section>
+
+<h2>Featured Projects</h2>
+
+<div class="card">
+<h3>Real-Time Object Detection System</h3>
+<p>YOLOv8 + OpenCV pipeline for live camera inference with edge deployment.</p>
+</div>
+
+<div class="card">
+<h3>Raga Classification (MSc Thesis)</h3>
+<p>CNN + LSTM model for audio classification with advanced feature engineering.</p>
+</div>
+
+<div class="card">
+<h3>Retail Analytics Dashboard</h3>
+<p>Business intelligence platform delivering actionable KPI insights.</p>
+</div>
+
+</section>
+
+<!-- RESEARCH -->
+
+<section>
+
+<h2>Research Interests</h2>
+
+<p>
+Computer Vision • Edge AI • Environmental AI • Autonomous Systems • Data-Driven Modelling • Sensor Fusion
+</p>
+
+</section>
+
+<!-- CONTACT CTA -->
+
+<section style="text-align:center">
+
+<h2>Let’s Work Together</h2>
+
+<p>Email: pandyapruthvi7@gmail.com</p>
+
+<a class="btn" href="contact.html">Contact Me</a>
+
 </section>
 
 <footer>
