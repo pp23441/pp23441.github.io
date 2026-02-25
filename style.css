@@ -1,39 +1,51 @@
+/* ===== GLOBAL ===== */
+
 body{
     margin:0;
-    font-family:Arial, sans-serif;
-    background:#f7f9fc;
+    font-family:"Segoe UI", Arial, sans-serif;
+    background:#ffffff;
     color:#222;
 }
 
 /* NAVBAR */
 
 nav{
-    background:#0a192f;
-    padding:15px;
-    text-align:center;
+    background:#0f172a;
+    padding:16px;
+    display:flex;
+    justify-content:center;
+    gap:28px;
 }
 
 nav a{
     color:white;
-    margin:0 15px;
     text-decoration:none;
-    font-weight:bold;
+    font-weight:600;
 }
 
 nav a:hover{
-    color:#64ffda;
+    color:#38bdf8;
 }
 
 /* HERO */
 
 .hero{
-    background:#0a192f;
-    color:white;
-    padding:80px 20px;
+    padding:90px 20px 60px;
     text-align:center;
+    background:#f8fafc;
 }
 
-/* CONTENT */
+.hero h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    font-size:20px;
+    color:#555;
+}
+
+/* SECTION */
 
 section{
     max-width:900px;
@@ -42,24 +54,25 @@ section{
 }
 
 h2{
-    color:#0a192f;
+    color:#0f172a;
+    margin-bottom:15px;
 }
 
 /* CARDS */
 
 .card{
+    border:1px solid #e5e7eb;
+    padding:22px;
+    margin:18px 0;
+    border-radius:8px;
     background:white;
-    padding:25px;
-    margin:25px 0;
-    border-radius:10px;
-    box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
 
 /* FOOTER */
 
 footer{
-    background:#0a192f;
-    color:white;
     text-align:center;
-    padding:20px;
+    padding:35px;
+    background:#0f172a;
+    color:white;
 }
