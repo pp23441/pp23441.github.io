@@ -1,24 +1,25 @@
-/* ===== GLOBAL ===== */
+/* ===== GLOBAL RESET ===== */
 
 body{
     margin:0;
-    font-family:"Segoe UI", Arial, sans-serif;
-    background:#ffffff;
-    color:#222;
+    font-family:"Inter", Arial, sans-serif;
+    background:#0b1220;
+    color:#e5e7eb;
 }
 
 /* NAVBAR */
 
 nav{
-    background:#0f172a;
-    padding:16px;
     display:flex;
     justify-content:center;
-    gap:28px;
+    gap:30px;
+    padding:18px;
+    background:#020617;
+    border-bottom:1px solid #1f2937;
 }
 
 nav a{
-    color:white;
+    color:#e5e7eb;
     text-decoration:none;
     font-weight:600;
 }
@@ -27,52 +28,59 @@ nav a:hover{
     color:#38bdf8;
 }
 
-/* HERO */
-
-.hero{
-    padding:90px 20px 60px;
-    text-align:center;
-    background:#f8fafc;
-}
-
-.hero h1{
-    font-size:42px;
-    margin-bottom:10px;
-}
-
-.subtitle{
-    font-size:20px;
-    color:#555;
-}
-
-/* SECTION */
+/* PAGE CONTAINER */
 
 section{
-    max-width:900px;
+    max-width:1000px;
     margin:auto;
-    padding:60px 20px;
+    padding:70px 20px;
 }
 
-h2{
-    color:#0f172a;
-    margin-bottom:15px;
+/* HEADINGS */
+
+h1, h2, h3{
+    color:#ffffff;
+}
+
+/* PARAGRAPHS */
+
+p{
+    color:#d1d5db;
+    line-height:1.6;
 }
 
 /* CARDS */
 
 .card{
-    border:1px solid #e5e7eb;
+    background:#020617;
     padding:22px;
     margin:18px 0;
     border-radius:8px;
-    background:white;
+    border:1px solid #1f2937;
+}
+
+/* LINKS */
+
+a{
+    color:#38bdf8;
+}
+
+/* BUTTON */
+
+.btn{
+    background:#38bdf8;
+    color:black;
+    padding:12px 22px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:700;
 }
 
 /* FOOTER */
 
 footer{
     text-align:center;
-    padding:35px;
-    background:#0f172a;
-    color:white;
+    padding:40px;
+    background:#020617;
+    border-top:1px solid #1f2937;
 }
